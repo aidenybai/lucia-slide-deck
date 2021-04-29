@@ -1,0 +1,15 @@
+{
+  "name": "lucia-slide-deck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/aidenybai/lucia-slide-deck.git",
+  "author": "Aiden Bai <mail.contraband@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx"
+  },
+  "devDependencies": {
+    "mdx-deck": "^4.1.1"
+  }
+}
